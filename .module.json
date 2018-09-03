@@ -1,0 +1,14 @@
+{
+  "title": "Benchbuster",
+  "description": "Brute-force benchmarking using sub-tick timing.",
+  "version": "0.0.1-dev",
+  "namespace": "benchbuster",
+  "scorespace": "bbust",
+  "authors": {
+    "Arcensoth": "https://github.com/Arcensoth"
+  },
+  "dependencies": {
+    "tickbuster": "0.0.4+"
+  },
+  "smf_version": "0.10.0"
+}
