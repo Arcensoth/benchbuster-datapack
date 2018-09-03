@@ -23,7 +23,7 @@ Objective       | Criteria  | Usage     | Description
 ### `bbust.config` objective
 Fakeplayer    | Default | Description
 ------------- | ------- | -----------
-`$autobench`  | `0`     | The number of ticks to automatically benchmark at. Set to `0` to disable.
+`$autobench`  | `1200`  | The number of ticks to automatically benchmark at. Set to `0` to disable.
 
 ### `bbust.math` objective
 **These values are read-only and should not be altered.**
