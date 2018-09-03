@@ -14,8 +14,8 @@ Scorespace  | `bbust`
 - [Event Hooks](#event-hooks)
 
 ## Scoreboard
-Objective     | Criteria  | Usage     | Description
-------------- | --------- | --------- | -----------
+Objective       | Criteria  | Usage     | Description
+--------------- | --------- | --------- | -----------
 `bbust.config`  | `dummy`   | Input     | Reserved for configuration options.
 `bbust.math`    | `dummy`   | Read-only | Reserved for sensitive operations.
 `bbust.module`  | `dummy`   | Read-only | Reserved for SMF.
@@ -34,13 +34,13 @@ Fakeplayer          | Description
 `$iters_per_tick`   | The average number of iterations per tick, over the course of the benchmark.
 `$sync`             | Used to sync the before-tick and after-tick loops and ensure the latter is not cut off by `maxCommandChainLength`.
 `$total_iters`      | The total number of iterations, over the course of the benchmark.
-`$total_ticks`      | The totla number of ticks, over the course of the benchmark.
+`$total_ticks`      | The total number of ticks, over the course of the benchmark.
 
 ## Entity Tags
 Entity Tag          | Description
 ------------------- | -----------
 `benchbuster.debug` | Present on players who are debugging the module.
-`benchbuster.bench` | Present on players who want to receive benchmarking messages.
+`benchbuster.bench` | Present on players receiving benchmarking messages.
 
 ## Event Hooks
 Function Tag                | Description
