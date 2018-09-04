@@ -1,4 +1,4 @@
-# v0.0.2-dev
+# v0.0.2
 - Add progress bar
 - Implement performance index
 - Rename config autobench to benchtime
