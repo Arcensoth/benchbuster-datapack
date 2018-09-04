@@ -1,6 +1,8 @@
 # Benchbuster
 Brute-force benchmarking using sub-tick timing.
 
+[![Showcase](https://i.imgur.com/rXVFr6D.png)](https://i.imgur.com/pF0K6gq.png)
+
 Field       | Value
 ----------- | -----
 Category    | Utility
@@ -33,6 +35,7 @@ Fakeplayer              | Description
 `$baseline              | Alternating flag determing whether hooks should be run.
 `$base_iters`           | The total number of baseline iterations, over the course of the benchmark.
 `$base_iters_per_tick`  | The average number of baseline iterations per tick, over the course of the benchmark.
+`$benchtime             | A copy of the configuration value for use during the current benchmark.
 `$current_iters`        | The number of iterations, over the course of the current tick.
 `$hook_iters`           | The total number of hook iterations, over the course of the benchmark.
 `$hook_iters_per_tick`  | The average number of hook iterations per tick, over the course of the benchmark.
