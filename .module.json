@@ -1,7 +1,7 @@
 {
   "title": "Benchbuster",
   "description": "Brute-force benchmarking using sub-tick timing.",
-  "version": "0.0.1",
+  "version": "0.0.2-dev",
   "namespace": "benchbuster",
   "scorespace": "bbust",
   "authors": {
