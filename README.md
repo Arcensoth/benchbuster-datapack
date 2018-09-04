@@ -28,13 +28,18 @@ Fakeplayer    | Default | Description
 ### `bbust.math` objective
 **These values are read-only and should not be altered.**
 
-Fakeplayer          | Description
-------------------- | -----------
-`$current_iters`    | The number of iterations, over the course of the current tick.
-`$iters_per_tick`   | The average number of iterations per tick, over the course of the benchmark.
-`$sync`             | Used to sync the before-tick and after-tick loops and ensure the latter is not cut off by `maxCommandChainLength`.
-`$total_iters`      | The total number of iterations, over the course of the benchmark.
-`$total_ticks`      | The total number of ticks, over the course of the benchmark.
+Fakeplayer              | Description
+----------------------- | -----------
+`$baseline              | Alternating flag determing whether hooks should be run.
+`$base_iters`           | The total number of baseline iterations, over the course of the benchmark.
+`$base_iters_per_tick`  | The average number of baseline iterations per tick, over the course of the benchmark.
+`$current_iters`        | The number of iterations, over the course of the current tick.
+`$hook_iters`           | The total number of hook iterations, over the course of the benchmark.
+`$hook_iters_per_tick`  | The average number of hook iterations per tick, over the course of the benchmark.
+`$perf_index_dec`       | The decimal portion of the performance index.
+`$perf_index_int`       | The integer portion of the performance index.
+`$sync`                 | Used to sync the before-tick and after-tick loops and ensure the latter is not cut off by `maxCommandChainLength`.
+`$ticks`                | The total number of ticks, over the course of the benchmark.
 
 ## Entity Tags
 Entity Tag          | Description

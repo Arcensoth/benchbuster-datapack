@@ -8,3 +8,6 @@ scoreboard players set $sync bbust.math 0
 
 # reset iteration counter for the current tick
 scoreboard players set $current_iters bbust.math 0
+
+# alternate between baseline and hooks every tick
+execute store success score $baseline bbust.math if score $baseline bbust.math matches 0
