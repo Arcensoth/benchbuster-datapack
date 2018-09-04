@@ -45,7 +45,7 @@ Fakeplayer              | Description
 Entity Tag          | Description
 ------------------- | -----------
 `benchbuster.debug` | Present on players who are debugging the module.
-`benchbuster.bench` | Present on players receiving benchmarking messages.
+`benchbuster.bench` | Present on players participating in benchmarks.
 
 ## Event Hooks
 Function Tag                | Description
